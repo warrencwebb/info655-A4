@@ -1,0 +1,41 @@
+body {
+  background-color: #57a8e1;
+  color: #f8f9f9; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: radial-gradient(circle, #1977aa, #154e7a, #e1e1e1);
+}
+
+
+
+.logo {
+  width: 52px;
+  margin: 0 auto; /* llogo */
+  display: block; 
+  margin-bottom: 10px;
+}
+
+.controls { /* button style */
+  display: flex;
+  justify-content: center; 
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+
+.status-tab {
+background: radial-gradient(circle, #1e99bb, #e1e2ea, #104a6e);
+color: rgb(248, 245, 245);
+padding: 2px;
+text-align: center;
+margin: 10px auto; 
+border-radius: 8px;
+border: 1px solid #2d94d0;
+width: 300px; 
+}
